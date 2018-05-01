@@ -4,14 +4,16 @@
   "repository": "https://github.com/RIP21/react-simplemde-editor",
   "version": "3.6.14",
   "author": "Ben Lodge",
-  "contributors": [{
-    "name": "Andrii Los",
-    "url": "https://github.com/RIP21",
-    "email": "puha212@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Andrii Los",
+      "url": "https://github.com/RIP21",
+      "email": "puha212@gmail.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
-    "simplemde": "^1.11.2"
+    "simplemde": "git+ssh://git@github.com:sparksuite/simplemde-markdown-editor.git#development"
   },
   "main": "lib/index.js",
   "devDependencies": {
@@ -31,8 +33,8 @@
     "babel-preset-es2015-loose": "^7.0.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "scripts": {
     "build": "./scripts/babel.js",
